@@ -3,7 +3,7 @@
 ## Usage
 In this project Icarus-Verilog is used to compile and vvp is used to do the simulation.
 
-Compile: `iverilog -o CPU.out *v`
+Compile: `iverilog -o CPU.out *.v`
 
 Simulation: `vvp CPU.out`
 
