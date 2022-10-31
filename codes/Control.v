@@ -1,7 +1,7 @@
 module Control(Op_i, ALUOp_o, ALUSrc_o, RegWrite_o);
     input [6:0] Op_i;
     output reg ALUSrc_o, RegWrite_o;
-    // ALUOp from OpCode[5:4]
+    // ALUOp from OpCode[6:5]
     // R format: 01 
     // I format: 00 
     output reg [1:0] ALUOp_o;
